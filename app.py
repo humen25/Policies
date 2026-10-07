@@ -26,7 +26,7 @@ CSV_FILE = "company_policies.csv"
 
 GENERATION_MODEL = os.environ.get(
     "GEMINI_MODEL",
-    "gemini-2.5-flash-lite"
+    "gemini-3.5-flash-lite"
 )
 
 EMBEDDING_MODEL = os.environ.get(
